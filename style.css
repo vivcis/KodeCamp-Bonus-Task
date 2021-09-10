@@ -1,0 +1,84 @@
+
+/*styling body and header*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*font-family:  Roboto, 'Poppins',sans-serif;*/
+    color: #0D0C0C;
+    
+}
+  
+  body{
+  	background: #E5E5E5;
+  }
+
+.wrapper, h1{
+	/*position: relative;*/
+	text-align: center;
+	font-weight: 30px;
+    margin-top: 64px;
+    color: #000000;
+    margin-top: 20px;
+    padding-top: 25px;
+}
+
+.download, img{
+	width: 422px;
+	height: 600px;
+}
+
+.who, h3{
+	text-align: center;
+	font-size: 20px;
+    border-bottom: 4px solid #D89616;
+
+}
+
+p{
+	font-size: 14px;
+}
+
+.who-we-are{
+   /* border: 1px solid #000;*/
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    margin-top: -150px;
+}
+.who-we-are, form{
+	background: #ffffff;
+	margin-left: 110px;
+    border-radius: 10px;
+    height: 757px;
+    margin-bottom: 50px;
+}
+
+#firstName{
+	width: 800px;
+	border-radius: 5px;
+}
+
+#lastName{
+	width: 800px;
+	border-radius: 5px;
+}
+
+textarea{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.end, button{
+	width: 180px;
+	height: 40px;
+	border-radius: 18px;
+	
+}
+
+.btn{
+	display: flex;
+	justify-content: flex-end;
+	text-align: left;
+	/*margin-left: 50px;*/
+
+}
